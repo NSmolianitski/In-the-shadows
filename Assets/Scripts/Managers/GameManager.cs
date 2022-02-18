@@ -41,7 +41,6 @@ namespace InTheShadows.Managers
         
         private void Start()
         {
-            PlayerPrefs.DeleteAll(); // TODO: delete on release (for development)
             AudioListener.volume = PlayerPrefs.GetFloat(Constants.MasterVolume, 0.2f);
             
             int currentResolutionIndex = PlayerPrefs.GetInt(Constants.ResolutionIndex, -1);

@@ -187,7 +187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c26b1fcdc89346e199fa53eb35eee552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableMainMenuCreation: 0
   unclickableLayerPrefab: {fileID: 5754580919035969692, guid: 1bddbca20b34e0b48be9e19a3f7b7de1, type: 3}
 --- !u!1 &8491061766256897802
 GameObject:
@@ -236,6 +235,7 @@ MonoBehaviour:
   ingameMenuPrefab: {fileID: 4971335148637654274, guid: 5429a8d23418cc84e821d54e280413f7, type: 3}
   winMenuPrefab: {fileID: 5802617359023107327, guid: d60cc556f27b56e4eb04dfbe09f482af, type: 3}
   optionsMenuPrefab: {fileID: 5455939512363698581, guid: 606f0a9ba968eca439a0c8322d5c1427, type: 3}
+  confirmMenuPrefab: {fileID: 2302426407620782418, guid: fba6f8e836f24564db72ac7ad262a38c, type: 3}
 --- !u!1001 &4424026538488159581
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ namespace InTheShadows.Menus
         [SerializeField] private Button playButton;
         [SerializeField] private Button testModeButton;
         [SerializeField] private Button optionsButton;
+        [SerializeField] private Button deleteButton;
+        [SerializeField] private GameObject confirmWindowPrefab;
         
         public override void OnBackButtonPressed()
         {
@@ -34,6 +36,15 @@ namespace InTheShadows.Menus
         public void OnOptionsButtonCLicked()
         {
             MenuManager.Instance.OpenMenu<OptionsMenu>();
+        }
+
+        public void OnDeleteSaveButtonClicked()
+        {
+            var confirmWindow = Instantiate(confirmWindowPrefab);
+            confirmWindow.GetComponent<ConfirmWindow>().Initialize("Are you sure you want to delete your saves?", 
+                PlayerPrefs.DeleteAll,
+                () => {}
+                );
         }
         
         public void OnQuitButtonClicked()

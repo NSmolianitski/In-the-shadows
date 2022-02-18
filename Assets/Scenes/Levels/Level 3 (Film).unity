@@ -2515,8 +2515,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837808154}
   m_LocalRotation: {x: -0.007755502, y: -0.06937667, z: 0.0025441346, w: 0.99755716}
-  m_LocalPosition: {x: -5.9451694, y: 3.3379612, z: -1.8780158}
-  m_LocalScale: {x: 0.8879677, y: 9.020815, z: 11.559769}
+  m_LocalPosition: {x: -5.929, y: 3.337, z: -1.846}
+  m_LocalScale: {x: 0.8879677, y: 9.020815, z: 11.47885}
   m_Children: []
   m_Father: {fileID: 991713314}
   m_RootOrder: 1
@@ -2935,7 +2935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3702238891141313318, guid: 29bbcecefd0717d449dbfe5553615d04, type: 3}
       propertyPath: rotationTolerance
-      value: 3
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3702238891141313318, guid: 29bbcecefd0717d449dbfe5553615d04, type: 3}
       propertyPath: winRotations.Array.size

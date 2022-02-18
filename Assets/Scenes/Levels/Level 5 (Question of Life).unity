@@ -212,7 +212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6741943335934276142, guid: 99cbba1db82140e4b9ee19e2288ad2d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.70162
+      value: -34.47
       objectReference: {fileID: 0}
     - target: {fileID: 6741943335934276142, guid: 99cbba1db82140e4b9ee19e2288ad2d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -534,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3702238891141313318, guid: 29bbcecefd0717d449dbfe5553615d04, type: 3}
       propertyPath: winLinkedVector.z
-      value: -3.85
+      value: -5.61839
       objectReference: {fileID: 0}
     - target: {fileID: 3702238891141313318, guid: 29bbcecefd0717d449dbfe5553615d04, type: 3}
       propertyPath: winRotations.Array.size
@@ -1246,7 +1246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196804527052848012, guid: 29bbcecefd0717d449dbfe5553615d04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.701622
+      value: -34.470005
       objectReference: {fileID: 0}
     - target: {fileID: 196804527052848012, guid: 29bbcecefd0717d449dbfe5553615d04, type: 3}
       propertyPath: m_LocalRotation.w
